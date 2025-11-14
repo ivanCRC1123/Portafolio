@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Iván Castro</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Encabezado menu -->
+    <header>
+      <nav class="menuFijo">
+        <h2>Iván.</h2>
+
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobreMi">Sobre Mi</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="hamburguesa" id="hamburguesa">☰</button>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+      <section id="inicio" class="presentacion">
+        <div class="perfil">
+          <img src="/foto/33.png" alt="Foto de Iván" class="foto" />
+
+          <div class="nombre">
+            <h4>Desarrollador Full Stack</h4>
+            <h1>Iván Castro</h1>
+          </div>
+          <div class="info-bajo">
+            <div class="item">
+              <h4>Desarrollador Full Stack</h4>
+              <p>Desarrollo de aplicaciones y sitios web modernos.</p>
+            </div>
+
+            <div class="botones-redes">
+              <a href="#proyectos" class="btn-proyectos">Ver Proyectos</a>
+
+              <div class="redes">
+                <a
+                  href="https://github.com/ivanCRC1123/Portafolio/tree/d0a7d7ff874806f5bc582b60f7e8b849b21eebad"
+                  target="_blank"
+                >
+                  <i class="devicon-github-original"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tuusuario" target="_blank">
+                  <i class="devicon-linkedin-plain colored"></i>
+                </a>
+                <a href="#contacto">
+                  <i class="devicon-google-plain colored"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre mi -->
+      <section id="sobreMi" class="info">
+        <div class="bloque">
+          <h2>Sobre mí</h2>
+          <p>
+            <strong>¡Hola! Soy Iván Castro.</strong> Full Stack Developer en
+            formación y estudiante universitario apasionado por crear
+            experiencias digitales completas, desde el diseño hasta la base de
+            datos.
+          </p>
+        </div>
+
+        <div class="bloque">
+          <h2>Experiencias</h2>
+          <p>
+            <strong>Desarrollo Frontend</strong><br />
+            Me gusta trabajar con HTML, CSS y JavaScript para crear interfaces
+            limpias y funcionales.
+          </p>
+          <p>
+            <strong>Bases de Datos</strong><br />
+            Disfruto diseñar y gestionar bases de datos eficientes para
+            respaldar aplicaciones web.
+          </p>
+          <p>
+            <strong>Diseño</strong><br />
+            Interés por el diseño y la usabilidad en aplicaciones web.
+          </p>
+        </div>
+
+        <div class="bloque">
+          <h2>Educación</h2>
+          <p>
+            <strong>2024 – 2026</strong><br />
+            Estudiante universitario en UTN Mendoza – Título: Técnico en
+            Programación
+          </p>
+        </div>
+
+        <div class="bloque">
+          <h2>Intereses personales</h2>
+          <p>
+            Me interesa aprender nuevas tecnologías, mejorar mis habilidades en
+            desarrollo web y participar en proyectos que combinen creatividad y
+            programación.
+          </p>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        <div class="contenedor-habilidades">
+          <!-- Frontend -->
+          <div class="categoria">
+            <h3>Frontend</h3>
+            <ul>
+              <li><i class="devicon-html5-plain colored"></i> HTML</li>
+              <li><i class="devicon-css3-plain colored"></i> CSS</li>
+              <li>
+                <i class="devicon-javascript-plain colored"></i> JavaScript
+              </li>
+              <li>
+                <i class="devicon-typescript-plain colored"></i> TypeScript
+              </li>
+            </ul>
+          </div>
+
+          <!-- Backend -->
+          <div class="categoria">
+            <h3>Backend</h3>
+            <ul>
+              <li><i class="devicon-java-plain colored"></i> Java</li>
+              <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+            </ul>
+          </div>
+
+          <!-- Learning -->
+          <div class="categoria">
+            <h3>Learning</h3>
+            <ul>
+              <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+              <li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
+              <li><i class="devicon-python-plain colored"></i> Python</li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div class="categoria">
+            <h3>Tools</h3>
+            <ul>
+              <li><i class="devicon-git-plain colored"></i> Git</li>
+              <li><i class="devicon-github-plain colored"></i> GitHub</li>
+              <li><i class="devicon-vscode-plain colored"></i> VS Code</li>
+              <li><i class="devicon-postman-plain colored"></i> Postman</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section id="proyectos" class="proyectos">
+        <h2>Proyectos</h2>
+
+        <div class="proyecto">
+          <img
+            src="https://tse4.mm.bing.net/th/id/OIP.17Z49hdASIEoD7ez2FX_QQHaHa?pid=Api&P=0&h=180"
+            alt="Proyecto 1"
+          />
+          <div class="info-pro">
+            <h3>E-commerce</h3>
+            <p>
+              API REST para un e-commerce con gestión de usuarios, productos,
+              categorías, carritos, pedidos y reseñas, autenticación con JWT,
+              roles y manejo de errores en JSON.
+            </p>
+            <a
+              href="https://github.com/ivanCRC1123/Portafolio/tree/main/ecommerce-api.rest"
+              target="_blank"
+              >Ver código</a
+            >
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img
+            src="https://thumbs.dreamstime.com/z/food-logo-smile-label-company-grocery-store-friendly-vector-illustration-smiling-mouth-symbol-135565322.jpg"
+            alt="Proyecto 2"
+          />
+          <div class="info-pro">
+            <h3>FoodStore</h3>
+            <p>
+              Aplicación web para la gestión de pedidos de comida, con roles de
+              administrador y cliente, carrito persistente en localStorage y
+              conexión a un backend REST en Spring Boot.
+            </p>
+            <a
+              href="https://github.com/Guerra-m/repoFrontFoodStore"
+              target="_blank"
+              >Ver código</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="contacto">
+        <div class="contacto-texto">
+          <h2>Contacto</h2>
+          <p class="intro">
+            Aquí estoy, esperando tu mensaje como un gato esperando pescado 🐟
+          </p>
+        </div>
+
+        <form>
+          <input type="text" placeholder="Nombre completo" required />
+          <input type="email" placeholder="Correo" required />
+          <textarea placeholder="Mensaje" rows="4" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2025 Iván Castro - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
